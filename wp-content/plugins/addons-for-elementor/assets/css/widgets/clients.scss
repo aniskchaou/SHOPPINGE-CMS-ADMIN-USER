@@ -1,0 +1,326 @@
+
+@import "../lae-lib";
+
+/* ---------------------------------- Clients Widget ---------------------------------- */
+
+.lae-clients {
+  clear: both;
+  overflow: hidden;
+  margin: 0 auto;
+
+  @include grid-media($lae-mobile-only-grid) {
+    .lae-grid-mobile-1 {
+      .lae-grid-item:nth-child(1n + 1) {
+        border-left: 1px solid #ddd;
+
+        .rtl & {
+          border-right: 1px solid #ddd;
+        }
+      }
+
+      .lae-grid-item:nth-child(-n + 1) {
+        border-top: 1px solid #ddd;
+      }
+    }
+    .lae-grid-mobile-2 {
+      .lae-grid-item:nth-child(2n + 1) {
+        border-left: 1px solid #ddd;
+
+        .rtl & {
+          border-right: 1px solid #ddd;
+        }
+      }
+
+      .lae-grid-item:nth-child(-n + 2) {
+        border-top: 1px solid #ddd;
+      }
+    }
+    .lae-grid-mobile-3 {
+      .lae-grid-item:nth-child(3n + 1) {
+        border-left: 1px solid #ddd;
+
+        .rtl & {
+          border-right: 1px solid #ddd;
+        }
+      }
+
+      .lae-grid-item:nth-child(-n + 3) {
+        border-top: 1px solid #ddd;
+      }
+    }
+    .lae-grid-mobile-4 {
+      .lae-grid-item:nth-child(4n + 1) {
+        border-left: 1px solid #ddd;
+
+        .rtl & {
+          border-right: 1px solid #ddd;
+        }
+      }
+
+      .lae-grid-item:nth-child(-n + 4) {
+        border-top: 1px solid #ddd;
+      }
+    }
+    .lae-grid-mobile-5 {
+      .lae-grid-item:nth-child(5n + 1) {
+        border-left: 1px solid #ddd;
+
+        .rtl & {
+          border-right: 1px solid #ddd;
+        }
+      }
+
+      .lae-grid-item:nth-child(-n + 5) {
+        border-top: 1px solid #ddd;
+      }
+    }
+    .lae-grid-mobile-6 {
+      .lae-grid-item:nth-child(6n + 1) {
+        border-left: 1px solid #ddd;
+
+        .rtl & {
+          border-right: 1px solid #ddd;
+        }
+      }
+
+      .lae-grid-item:nth-child(-n + 6) {
+        border-top: 1px solid #ddd;
+      }
+    }
+  }
+  @include grid-media($lae-tablet-only-grid) {
+
+    .lae-grid-tablet-1 {
+      .lae-grid-item:nth-child(1n + 1) {
+        border-left: 1px solid #ddd;
+
+        .rtl & {
+          border-right: 1px solid #ddd;
+        }
+      }
+
+      .lae-grid-item:nth-child(-n + 1) {
+        border-top: 1px solid #ddd;
+      }
+    }
+    .lae-grid-tablet-2 {
+      .lae-grid-item:nth-child(2n + 1) {
+        border-left: 1px solid #ddd;
+
+        .rtl & {
+          border-right: 1px solid #ddd;
+        }
+      }
+
+      .lae-grid-item:nth-child(-n + 2) {
+        border-top: 1px solid #ddd;
+      }
+    }
+    .lae-grid-tablet-3 {
+      .lae-grid-item:nth-child(3n + 1) {
+        border-left: 1px solid #ddd;
+
+        .rtl & {
+          border-right: 1px solid #ddd;
+        }
+      }
+
+      .lae-grid-item:nth-child(-n + 3) {
+        border-top: 1px solid #ddd;
+      }
+    }
+    .lae-grid-tablet-4 {
+      .lae-grid-item:nth-child(4n + 1) {
+        border-left: 1px solid #ddd;
+
+        .rtl & {
+          border-right: 1px solid #ddd;
+        }
+      }
+
+      .lae-grid-item:nth-child(-n + 4) {
+        border-top: 1px solid #ddd;
+      }
+    }
+    .lae-grid-tablet-5 {
+      .lae-grid-item:nth-child(5n + 1) {
+        border-left: 1px solid #ddd;
+
+        .rtl & {
+          border-right: 1px solid #ddd;
+        }
+      }
+
+      .lae-grid-item:nth-child(-n + 5) {
+        border-top: 1px solid #ddd;
+      }
+    }
+    .lae-grid-tablet-6 {
+      .lae-grid-item:nth-child(6n + 1) {
+        border-left: 1px solid #ddd;
+
+        .rtl & {
+          border-right: 1px solid #ddd;
+        }
+      }
+
+      .lae-grid-item:nth-child(-n + 6) {
+        border-top: 1px solid #ddd;
+      }
+    }
+  }
+  @include grid-media($lae-desktop-grid) {
+    .lae-grid-desktop-1 {
+      .lae-grid-item:nth-child(1n + 1) {
+        border-left: 1px solid #ddd;
+
+        .rtl & {
+          border-right: 1px solid #ddd;
+        }
+      }
+
+      .lae-grid-item:nth-child(-n + 1) {
+        border-top: 1px solid #ddd;
+      }
+    }
+    .lae-grid-desktop-2 {
+      .lae-grid-item:nth-child(2n + 1) {
+        border-left: 1px solid #ddd;
+
+        .rtl & {
+          border-right: 1px solid #ddd;
+        }
+      }
+
+      .lae-grid-item:nth-child(-n + 2) {
+        border-top: 1px solid #ddd;
+      }
+    }
+    .lae-grid-desktop-3 {
+      .lae-grid-item:nth-child(3n + 1) {
+        border-left: 1px solid #ddd;
+
+        .rtl & {
+          border-right: 1px solid #ddd;
+        }
+      }
+
+      .lae-grid-item:nth-child(-n + 3) {
+        border-top: 1px solid #ddd;
+      }
+    }
+    .lae-grid-desktop-4 {
+      .lae-grid-item:nth-child(4n + 1) {
+        border-left: 1px solid #ddd;
+
+        .rtl & {
+          border-right: 1px solid #ddd;
+        }
+      }
+
+      .lae-grid-item:nth-child(-n + 4) {
+        border-top: 1px solid #ddd;
+      }
+    }
+    .lae-grid-desktop-5 {
+      .lae-grid-item:nth-child(5n + 1) {
+        border-left: 1px solid #ddd;
+
+        .rtl & {
+          border-right: 1px solid #ddd;
+        }
+      }
+
+      .lae-grid-item:nth-child(-n + 5) {
+        border-top: 1px solid #ddd;
+      }
+    }
+    .lae-grid-desktop-6 {
+      .lae-grid-item:nth-child(6n + 1) {
+        border-left: 1px solid #ddd;
+
+        .rtl & {
+          border-right: 1px solid #ddd;
+        }
+      }
+
+      .lae-grid-item:nth-child(-n + 6) {
+        border-top: 1px solid #ddd;
+      }
+    }
+  }
+
+  .lae-client {
+    position: relative;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    overflow: hidden;
+
+    .rtl & {
+      border-right: none;
+      border-left: 1px solid #ddd;
+    }
+
+    .lae-dark-bg & {
+      border-color: #505050 !important;
+    }
+
+    img {
+      -webkit-transition: all 0.3s ease-in-out 0s;
+      -moz-transition: all 0.3s ease-in-out 0s;
+      transition: all 0.3s ease-in-out 0s;
+      width: 100%;
+      margin: 0;
+      display: block;
+    }
+
+    .lae-client-name {
+      position: absolute;
+      z-index: 2;
+      top: 50%;
+      left: 0;
+      text-align: center;
+      width: 100%;
+      height: 100%;
+      margin-top: -12px;
+      color: #fff;
+      font-size: 18px;
+      line-height: 26px;
+      transition: opacity .4s ease-in-out 0s;
+      opacity: 0;
+
+      a {
+        color: #fff;
+        text-decoration: none;
+      }
+    }
+
+    .lae-image-overlay {
+      position: absolute;
+      left: 0;
+      top: 0;
+      overflow: hidden;
+      width: 100%;
+      height: 100%;
+      background: #000;
+      filter: alpha(opacity=0);
+      -moz-opacity: 0;
+      opacity: 0;
+      transition: opacity .4s ease-in-out 0s;
+    }
+
+    &:hover {
+      .lae-image-overlay {
+        opacity: 0.7;
+
+        .lae-dark-bg & {
+          opacity: 0.8;
+        }
+      }
+
+      .lae-client-name {
+        opacity: 1;
+      }
+    }
+  }
+}
