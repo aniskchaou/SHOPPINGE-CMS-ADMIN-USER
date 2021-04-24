@@ -39,21 +39,21 @@ Please read the [documentation](https://github.com/aniskchaou/SMARTLAB-FRONTEND-
 	<img src="screenshots/screenshot.png" />
 <p>
 
-	## Technologies
-	* Wordpress
-	* woocommerce
+## Technologies
+* Wordpress
+* woocommerce
 
-	## Setup
+## Setup
 
 
-	## Features
-	- Manage the cart
+## Features
+- Manage the cart
 
-	## Status
-	Project is: _ finished_
+## Status
+Project is: _ finished _
 
-	## Contact
-	contact@delta-dev-software.com
+## Contact
+contact@delta-dev-software.com
 
-	## License
-	<a href="license.txt">MIT License</a>
+## License
+<a href="license.txt">MIT License</a>
